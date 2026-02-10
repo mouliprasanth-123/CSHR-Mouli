@@ -94,8 +94,7 @@ export default function MeetOurStars() {
       isNew: true,
     },
   ];
-
-  // 🔀 Alternate NEWLY PLACED and NORMAL
+  
   const newStudents = students.filter(s => s.isNew);
   const normalStudents = students.filter(s => !s.isNew);
 
